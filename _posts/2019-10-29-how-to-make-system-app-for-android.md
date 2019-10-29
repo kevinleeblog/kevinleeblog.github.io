@@ -12,8 +12,6 @@ visualworkflow: true
 
 Android system有一些權限的控管，成為System app後能夠避免一些權限不足而無法使用的問題
 
-
-
 ### 如何做？
 
 打開Android Studio開啟專案的AndroidManifest.xml
