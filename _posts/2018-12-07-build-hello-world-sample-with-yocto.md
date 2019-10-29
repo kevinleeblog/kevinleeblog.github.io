@@ -2,7 +2,7 @@
 layout: post
 title: "Build Hello World Sample With Yocto"
 author:     Kevin Lee
-tags: 		Yocto-Study
+tags: 		[OpenBMC]
 subtitle:   
 category:  project1
 visualworkflow: true

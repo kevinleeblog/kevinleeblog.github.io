@@ -2,7 +2,7 @@
 layout: post
 title: "使用U-boot中的tftp來燒錄flash"
 author:     Kevin Lee
-tags: 		U-boot Tftp
+tags: 		[OpenBMC]
 subtitle:   
 category:  project1
 visualworkflow: true

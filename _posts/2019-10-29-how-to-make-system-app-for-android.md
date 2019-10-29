@@ -3,7 +3,7 @@ layout: post
 title: "Android System App for AOSP"
 auther: Kevin Lee
 category: 
-tags: [Android-BSP-Development, AOSP]
+tags: [Android-ROM-Custom]
 subtitle:
 visualworkflow: true
 ---

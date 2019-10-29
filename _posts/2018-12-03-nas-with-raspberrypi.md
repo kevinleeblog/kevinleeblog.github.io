@@ -2,7 +2,7 @@
 layout: post
 title: "NAS自己來，使用Raspberry Pi Zero W"
 author:     Kevin Lee
-tags: 		RaspberryPi NAS OwnCloud
+tags: 		[RaspberryPi, OwnCloud]
 subtitle:   
 category:  project1
 visualworkflow: true

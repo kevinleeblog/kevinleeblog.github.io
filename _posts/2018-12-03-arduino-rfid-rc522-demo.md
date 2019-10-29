@@ -2,7 +2,7 @@
 layout: post
 title: "Arduino使用RFID-RC522 Demo"
 author:     Kevin Lee
-tags: 		Arduino RFID
+tags: 		[Arduino, RFID]
 subtitle:   
 category:  project1
 visualworkflow: true

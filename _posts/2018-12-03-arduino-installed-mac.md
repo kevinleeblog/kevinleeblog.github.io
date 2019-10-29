@@ -2,7 +2,7 @@
 layout: post
 title: "Arduino安裝於Mac "
 author:     Kevin Lee
-tags: 		Arduino Mac
+tags: 		[Arduino]
 subtitle:   
 category:  project1
 visualworkflow: true

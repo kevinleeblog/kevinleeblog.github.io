@@ -2,7 +2,7 @@
 layout: post
 title: "查詢GPIO狀況"
 author:     Kevin Lee
-tags: 		Yocto-Study 
+tags: 		[OpenBMC] 
 subtitle:   
 category:  project1
 visualworkflow: true
