@@ -3,7 +3,7 @@
 layout: post
 title: "vimdiff的使用方法"
 author:     Kevin Lee
-tags: 		[Linux軟體]
+tags: 		[Linux]
 subtitle:   
 category:  project1
 visualworkflow: true

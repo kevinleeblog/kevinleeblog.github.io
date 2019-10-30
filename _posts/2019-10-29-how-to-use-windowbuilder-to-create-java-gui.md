@@ -3,7 +3,7 @@ layout: post
 title: "How to use WindowBuilder to create Java GUI"
 auther: Kevin Lee
 category: 
-tags: [Java]
+tags: [Java_Design]
 subtitle:
 visualworkflow: true
 ---

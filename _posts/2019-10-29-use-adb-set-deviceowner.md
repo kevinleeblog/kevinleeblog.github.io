@@ -3,7 +3,7 @@ layout: post
 title: "adb設置DeviceOwner發生問題"
 auther: Kevin Lee
 category: 
-tags: [Android-ISSUE]
+tags: [Android_ROM_Design]
 subtitle:
 visualworkflow: true
 ---
