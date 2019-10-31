@@ -3,7 +3,7 @@ layout: post
 title: "How to use java jni"
 auther: Kevin Lee
 category: 
-tags: [Java_Design]
+tags: [Java_Design, Job_Logging]
 subtitle:
 visualworkflow: true
 ---

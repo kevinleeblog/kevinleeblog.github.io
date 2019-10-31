@@ -2,7 +2,7 @@
 layout: post
 title: "Solve QA Issue: non -staticdev package contains static .a library"
 author:     Kevin Lee
-tags: 		[OpenBMC] 
+tags: 		[OpenBMC, Job_Logging] 
 subtitle:   
 category:  project1
 visualworkflow: true

@@ -3,7 +3,7 @@ layout: post
 title: "Build Android 9 for Quectel SC600"
 auther: Kevin Lee
 category: 
-tags: [Android_ROM_Design]
+tags: [Android_ROM_Design, Job_Logging]
 subtitle:
 visualworkflow: true
 ---

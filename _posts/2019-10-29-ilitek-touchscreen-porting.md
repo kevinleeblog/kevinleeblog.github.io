@@ -3,7 +3,7 @@ layout: post
 title: "ILITEK Touch Panel Porting"
 auther: Kevin Lee
 category: 
-tags: [Android_ROM_Design]
+tags: [Android_ROM_Design, Job_Logging]
 subtitle:
 visualworkflow: true
 ---
