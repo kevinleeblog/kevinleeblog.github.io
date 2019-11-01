@@ -8,7 +8,7 @@ subtitle:
 visualworkflow: true
 ---
 
-#### 為何做？
+### 為何做？
 
 繼上篇[OpenSUSE/SUSE Network Configuration](../opensusesuse-network-configuration)
 處理好了網路問題後，QA反應不知道如何去測試RS232 Port
@@ -20,24 +20,43 @@ visualworkflow: true
 我公司的產品使用Linux及Windows都有可能，所以想寫一隻可以跨平台的程式，就決定使用Python
 
 
-#### 如何做？
+### 如何做？
 
-Ubuntu-16.04
+#### Ubuntu-16.04 OS
+
 安裝Serial Library for Python
 
 ```
 $ sudo apt-get install python-serial
 ```
 
-##### Uart loopback Test程式
+#### Windows OS
+
+Download and Install Python2.7
+https://www.python.org/downloads/release/python-2717/
+
+Download and Install pip
+https://bootstrap.pypa.io/get-pip.py
+打開Windows CMD，安裝pip
+
+```
+$ python get-pip.py
+$ pip -v
+```
+
+安裝pySerial
+
+`$ pip install pyserial`
+
+#### Uart loopback Test程式
 
 指令下法：
 
-###### Linux
+##### Linux
 
 `uart_test.py /dev/ttyUSB0`
 
-###### Windows
+##### Windows
 
 `uart_test.py COM1`
 
@@ -77,6 +96,8 @@ if __name__ == '__main__':
 
 執行結果
 
+Linux OS
+
 ```
 $ sudo python uart_test.py /dev/ttyUSB0
 .
@@ -91,5 +112,9 @@ $ sudo python uart_test.py /dev/ttyUSB0
 .
 Test OK!
 ```
+
+Windows OS
+
+![image-20191101134116985]({{site.baseurl}}/img/image-20191101134116985.png)
 
 > 目前程式的處理送和收的反應比較慢，還沒有優化
