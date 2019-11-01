@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "openSUSE/SUSE Network Configuration"
+title: "OpenSUSE/SUSE Network Configuration"
 auther: Kevin Lee
 category: 
 tags: [Linux, Job_Logging]
