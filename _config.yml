@@ -17,7 +17,8 @@ headercolor: "#FFFFFF"
 github_username:  projectpages
 project_repository: project-pages
 disqus_shortname: kevinlee-blog
-g-analytics: UA-75881392-1
+g-analytics: UA-151437868-1
+google_analytics: UA-151437868-1
 altmetric: true
 
 # Build settings
