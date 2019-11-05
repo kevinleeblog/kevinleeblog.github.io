@@ -3,7 +3,7 @@ layout: post
 title: "OpenBMC Basic(二)-Software Development Kit (SDK)"
 auther: Kevin Lee
 category: project1
-tags: [OpenBMC,side-project]
+tags: [OpenBMC, side-project]
 subtitle:
 visualworkflow: true
 ---
