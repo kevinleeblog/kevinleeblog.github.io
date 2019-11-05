@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "OpenBMC Basic(一)-Compile and Quem"
+title: "OpenBMC Basic-Compile and Quem(一)"
 auther: Kevin Lee
 category: project1
-tags: [OpenBMC, side-project]
+tags: [OpenBMC]
 subtitle:
 visualworkflow: true
 ---
