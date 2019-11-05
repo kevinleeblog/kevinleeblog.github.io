@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OpenBMC Basic-Compile and Quem(一)"
+title: "OpenBMC Basic(一)-Compile and Quem"
 auther: Kevin Lee
 category: project1
 tags: [OpenBMC, side-project]
@@ -155,4 +155,6 @@ CurrentHostState    : xyz.openbmc_project.State.Host.HostState.Off
 BootProgress        : xyz.openbmc_project.State.Boot.Progress.ProgressStages.Unspecified
 OperatingSystemState: xyz.openbmc_project.State.OperatingSystem.Status.OSStatus.Inactive
 ```
+
+離開Qemu:`ctrl+a x`
 
