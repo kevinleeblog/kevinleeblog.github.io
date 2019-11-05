@@ -1,12 +1,14 @@
 ---
 layout: post
-title: "OpenBMC Basic(二)-Software Development Kit (SDK)"
+title: "OpenBMC Basic(二)-Software Development Kit"
 auther: Kevin Lee
 category: project1
 tags: [OpenBMC, side-project]
 subtitle:
 visualworkflow: true
 ---
+
+
 
 ### OpenBMC SDK有什麼用途？
 
