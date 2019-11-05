@@ -2,7 +2,7 @@
 layout: post
 title: "How to use java jni"
 auther: Kevin Lee
-category: 
+category: project1
 tags: [Java_Design, Job_Logging]
 subtitle:
 visualworkflow: true
