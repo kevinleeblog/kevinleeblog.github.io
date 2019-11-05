@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OpenBMC基礎學習(一)"
+title: "OpenBMC Basic-Compile and Quem(一)"
 auther: Kevin Lee
 category: project1
 tags: [OpenBMC, side-project]

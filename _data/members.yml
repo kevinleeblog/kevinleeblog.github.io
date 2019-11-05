@@ -1,11 +1,11 @@
 # Members
 
 - name: Kevin Lee
-  role: Software Engineer
+  role: Senior Engineer
   img: https://kevinleeblog.github.io/img/IMG_3218.JPG
   github: greatli69
   gplus: https://plus.google.com/u/0/102181755527135351961
-  bio: 現職為外商公司軟體資深工程師， 擅長MCU, Firmware與程式語言開發，MCU平台移植、韌體底層開發、產品開發都可。另外對於產品安全及防盜版破解的密碼Crypto技術SHA-256、ECC512及處理過USB Host相關應用。
+  bio: 半路自學韌體後進入MCU的世界。一路上跌跌撞撞、東摸西摸找自己的興趣所在，從Embedded Linux，Android AOSP，BMC到Android app和iOS app到處都留下我走過得足跡。若說最喜愛，其實我愛的是解決一個難題後的小小確幸吧～ Email: greatlio_o@iclouid.com
   url: http://greatli69.github.io/
   visible: true
    
