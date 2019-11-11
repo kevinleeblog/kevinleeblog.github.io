@@ -3,7 +3,7 @@ layout: post
 title: "分析App不能執行在android-7.1.2 webview"
 auther: Kevin Lee
 category: project1
-tags: [Android]
+tags: [Android, Job_Logging]
 subtitle:
 visualworkflow: true
 ---
