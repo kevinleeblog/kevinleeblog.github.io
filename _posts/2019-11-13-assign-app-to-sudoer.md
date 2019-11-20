@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "使app具有Root權限"
+title: "使app取得Root權限不用輸入密碼"
 auther: Kevin Lee
 category: project1
 tags: [Ubuntu, Job_Logging]
