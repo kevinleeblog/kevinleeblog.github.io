@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OpenBMC Installed On Raspberry Pi"
+title: "Compile OpenBMC For Raspberry Pi"
 auther: Kevin Lee
 category: 
 tags: [OpenBMC]
