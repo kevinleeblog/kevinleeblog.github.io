@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Android Wi-Fi過濾(上)"
+title: "做一個在Android只列出想要的Wi-Fi AP(上)"
 auther: Kevin Lee
 category: 
 tags: [Android_ROM_Design,Job_Logging]
@@ -10,16 +10,15 @@ visualworkflow: true
 
 ### 為何做？
 
-最近接到一個任務要評估是否Android的Wi-Fi訊號，只列出感興趣的那個AP，其他都不出現在選項上
-因為有些Android要做成某種產品時，希望能夠控管或限定接收某些公司提供的AP，其他都過濾不顯示。
+最近接到一個任務要評估是否Android的Wi-Fi訊號，只列出想要的那個AP，其他都不出現在WiFi選項上。
+應用場合是因為Android要做成某種產品時，例如點餐機時，希望那個平板能夠控管或限定接收某些公司提供的WiFi AP，其他都過濾不顯示。
 
 ### 如何做
 
-想法就是先尋找Setting -> Wi-Fi的程式碼在何處，然後在那邊先把AP用Hard Code固定，其他都不濾掉。
-
+想法就是先尋找Setting -> Wi-Fi的頁面程式碼位於AOSP何處，然後在那邊先把某一AP用Hard Code固定
 這段程式位於*packages/apps/Settings/src/com/android/settings/wifi/WifiSettings.java*
 最下面的AP hard code是"BQE_2.4G"
-意思是說我只要這個ssid，其他都不顯示
+意思是說我只要這個ssid，其他都不顯示。
 
 ```java
   public synchronized void onAccessPointsChanged() {
@@ -48,4 +47,5 @@ visualworkflow: true
 
 ### 後記
 
-接下來要做的就是把過濾Wi-Fi AP做成一個System選項，可以讓使用者勾選是否啟用過濾，就留待下一集解謎
+接下來要做的就是把過濾Wi-Fi AP做成一個開關放在Wifi Setting，可以讓使用者勾選是否啟用固定AP，以及把AP Hard Code變成一種可以給客戶選擇想要固定的AP
+就留待下一集解謎...
