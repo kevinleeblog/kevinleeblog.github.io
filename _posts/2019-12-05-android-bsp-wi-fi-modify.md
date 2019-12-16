@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "做一個在Android只列出想要的Wi-Fi AP(上)"
+title: "做一個在Android只列出想要的Wi-Fi AP(一)"
 auther: Kevin Lee
 category: 
 tags: [Android_ROM_Design,Job_Logging]
