@@ -19,6 +19,13 @@ UI外觀沿用先前已經設計好的
 
 ![image-20191216102706198]({{site.baseurl}}/img/image-20191216102706198.png)
 
+因為是使用到External Storage，所以app要增加權限
+
+```
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+```
+
 ```java
 package com.protech.os.wififilter;
 
