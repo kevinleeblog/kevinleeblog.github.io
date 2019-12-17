@@ -454,3 +454,18 @@ index 1e9a6bb..aef265c 100644
                          String key = accessPoint.getBssid();
 ```
 
+### 運行結果
+
+BSP重新燒錄後和app安裝完後，要先去設定->應用程式下把權限給打開
+
+![image-20191217105825664]({{site.baseurl}}/img/image-20191217105825664.png)
+
+首先看正常環境下的wifi訊號
+
+![image-20191217105958330]({{site.baseurl}}/img/image-20191217105958330.png)
+
+接者打開app，設定只想顯示的wifi AP名稱，然後切Enable
+![image-20191217110115614]({{site.baseurl}}/img/image-20191217110115614.png)
+
+再回到Wifi頁面下看結果，果然只顯示設定的AP
+![image-20191217110218675]({{site.baseurl}}/img/image-20191217110218675.png)
