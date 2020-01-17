@@ -20,7 +20,89 @@ visualworkflow: true
 
 ### 如何做？
 
-SSIF主要是透過SMBus，所以第一步就是先載入Raspberry Pi Zero W的i2c-dev module
+SSIF主要是透過PCH SMBus Host Controller並且BMC本身是當Slave角色，而我使用的Raspberry Pi Zero W其MCU為BCM2835，根據spec，BCM2835有專門提供BSCSL當I2C/SPI Slave使用
+![image-20200117075339879]({{site.baseurl}}/img/image-20200117075339879.png)
+
+![image-20200117081557535]({{site.baseurl}}/img/image-20200117081557535.png)
+
+**由spec可以看出BSCSL使用GPIO18~21共4pin，模式是ALT3**
+
+![image-20200117081714203]({{site.baseurl}}/img/image-20200117081714203.png)
+
+**Raspberry Pi Zero w的接腳**
+
+![image-20200117082528638]({{site.baseurl}}/img/image-20200117082528638.png)
+
+但是目前DTS沒有設定到這個register，所以需要自己寫
+由spec可以獲得一些資訊
+
+* GPIO18：BSCSL_SDA         GPIO19：BSCSL_SCL
+* BSCSL Base Register address:0x7E21_4000
+
+創建linux-raspberrypi/arch/arm/boot/dts/overlays/i2cslave-bcm2708-overlay.dts
+
+```dtd
+/*
+ * Device tree overlay for i2c_bcm2708, i2cslave bus
+ *
+ * Compile:
+ * dtc -@ -I dts -O dtb -o i2cslave-bcm2708-overlay.dtbo i2cslave-bcm2708-overlay.dts
+ */
+#include <dt-bindings/clock/bcm2835.h>
+#include <dt-bindings/pinctrl/bcm2835.h>
+/dts-v1/;
+/plugin/;
+
+/{
+	compatible = "brcm,bcm2707", "brcm,bcm2708", "brcm,bcm2709", "brcm,bcm2835";
+
+	fragment@0{
+		target = <&soc>;
+		__overlay__ {
+			i2cslv0: i2c@7e214000 {
+			compatible = "brcm,bcm2835-i2c-slave";
+			reg = <0x7e214000 0x1000>;
+			interrupts = <2 11>;
+			/*clocks = <&clk_core>;*/
+			clocks = <&clocks BCM2835_CLOCK_VPU>;
+			clock-frequency = <100000>;
+			#address-cells = <1>;
+			#size-cells = <1>;
+			pinctrl-names = "default";
+      pinctrl-0 = <&i2cslv0_pins>;
+			status = "okay";
+			};
+		};
+	};
+	
+	fragment@1{
+		target = <&gpio>;
+		__overlay__{
+			i2cslv0_pins: i2cslv0 {
+				brcm,pins = <18 19>;
+        brcm,function = <BCM2835_FSEL_ALT3>; /* alt3 */	
+			};
+		};
+	};
+	
+	fragment@2{
+		target-path = "/aliases";
+		__overlay__{
+			i2cslv0 = "/soc/i2c@7e214000";
+		};
+	};
+	
+	fragment@3{
+		target-path = "/__symbols__";
+		__overlay__{
+			i2cslv0 = "/soc/i2c@7e214000";
+			i2cslv0_pins = "/soc/gpio@7e200000/i2cslv0";
+		};
+	};
+};
+```
+
+載入Raspberry Pi Zero W的i2c-dev module
 
 ```
 $ modprobe i2c-dev
