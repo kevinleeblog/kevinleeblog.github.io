@@ -2,7 +2,7 @@
 layout: post
 title: "How to change ssh server port in mac os x"
 auther: Kevin Lee
-category: 
+category: project1
 tags: [ssh,MacOSX]
 subtitle:
 visualworkflow: true

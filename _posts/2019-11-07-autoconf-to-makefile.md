@@ -2,7 +2,7 @@
 layout: post
 title: "使用Autotool產生Makefile"
 auther: Kevin Lee
-category: 
+category: project1
 tags: [OpenBMC]
 subtitle:
 visualworkflow: true

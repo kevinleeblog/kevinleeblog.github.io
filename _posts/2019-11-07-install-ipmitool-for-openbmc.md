@@ -2,7 +2,7 @@
 layout: post
 title: "OpenBMC Install ipmitool"
 auther: Kevin Lee
-category: 
+category: project1
 tags: [OpenBMC]
 subtitle:
 visualworkflow: true

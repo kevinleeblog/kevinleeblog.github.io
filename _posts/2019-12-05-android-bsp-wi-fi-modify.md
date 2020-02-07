@@ -2,7 +2,7 @@
 layout: post
 title: "做一個在Android只列出想要的Wi-Fi AP(一)"
 auther: Kevin Lee
-category: 
+category: project1
 tags: [Android_ROM_Design,Job_Logging]
 subtitle: Android-7.1.2
 visualworkflow: true

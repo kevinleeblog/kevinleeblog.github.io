@@ -2,7 +2,7 @@
 layout: post
 title: "Porting USB Over Ethernet to Android 7"
 auther: Kevin Lee
-category: 
+category: project1
 tags: [Android_ROM_Design,Job_Logging]
 subtitle:
 visualworkflow: true
