@@ -30,6 +30,9 @@ paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 # Jekyll Settings
+plugins:
+  - jekyll-paginate
+paginate: 5
 
 defaults:
   -
