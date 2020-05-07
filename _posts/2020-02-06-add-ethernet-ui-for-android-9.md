@@ -22,6 +22,48 @@ visualworkflow: true
 ##### Ethernet UI
 
 設計UI的部分並加到系統設定畫面下
+
+*packages/apps/Settings/AndroidManifest.xml*
+
+```xml
+diff --git a/packages/apps/Settings/AndroidManifest.xml b/packages/apps/Settings/AndroidManifest.xml
+index 26d7251..f272752 100644
+--- a/packages/apps/Settings/AndroidManifest.xml
++++ b/packages/apps/Settings/AndroidManifest.xml
+@@ -477,6 +477,30 @@
+                 android:value="com.android.settings.TetherSettings" />
+         </activity-alias>
+ 
++        <activity android:name="Settings$EthernetSettingsActivity"
++            android:label="@string/ethernet_settings_title"
++            android:icon="@drawable/ic_settings_wireless"
++            android:taskAffinity="">
++            <intent-filter>
++                <action android:name="android.intent.action.MAIN" />
++                <category android:name="android.intent.category.DEFAULT" />
++                <category android:name="android.intent.category.VOICE_LAUNCH" />
++                <category android:name="com.android.settings.SHORTCUT" />
++            </intent-filter>
++            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
++                android:value="com.android.settings.EthernetSettings" />
++        </activity>
++
++        <!-- Keep compatibility with old shortcuts. -->
++        <activity-alias android:name=".EthernetSettings"
++            android:label="@string/ethernet_settings"
++            android:clearTaskOnLaunch="true"
++            android:targetActivity="Settings$EthernetSettingsActivity"
++            android:exported="true">
++            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
++                android:value="com.android.settings.EthernetSettings" />
++        </activity-alias>
++
+         <activity android:name="Settings$WifiP2pSettingsActivity"
+                   android:taskAffinity="com.android.settings"
+                   android:parentActivityName="Settings">
+
+```
+
 *packages/apps/Settings/res/values/strings.xml*
 
 ```xml
