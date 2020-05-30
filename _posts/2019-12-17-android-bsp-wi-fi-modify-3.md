@@ -3,7 +3,7 @@ layout: post
 title: "做一個在Android只列出想要的Wi-Fi AP(三) - Using external storage"
 auther: Kevin Lee
 category: project1
-tags: [Android_ROM_Design,Job_Logging]
+tags: [Android Open Source Project, Java]
 subtitle:
 visualworkflow: true
 ---

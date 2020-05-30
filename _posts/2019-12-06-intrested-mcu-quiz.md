@@ -3,7 +3,7 @@ layout: post
 title: "很有趣的MCU考題"
 auther: Kevin Lee
 category: 
-tags: [MCU_Design]
+tags: [Firmware]
 subtitle:
 visualworkflow: true
 ---

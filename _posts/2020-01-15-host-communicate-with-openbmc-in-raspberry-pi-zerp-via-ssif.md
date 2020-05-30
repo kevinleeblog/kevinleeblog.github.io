@@ -3,7 +3,7 @@ layout: post
 title: "Host OS communicate to raspberry pi with IPMI via SSIF "
 auther: Kevin Lee
 category: project1
-tags: [OpenBMC,Raspberry_Pi]
+tags: [OpenBMC,Raspberry-Pi]
 subtitle:
 visualworkflow: true
 ---

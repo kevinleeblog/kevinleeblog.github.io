@@ -3,7 +3,7 @@ layout: post
 title: "RS232 test program with python"
 auther: Kevin Lee
 category: project1
-tags: [Linux, Job_Logging, Python]
+tags: [Linux, Python]
 subtitle:
 visualworkflow: true
 ---

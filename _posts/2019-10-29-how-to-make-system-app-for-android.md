@@ -3,7 +3,7 @@ layout: post
 title: "Android System App for AOSP"
 auther: Kevin Lee
 category: project1
-tags: [Android_ROM_Design, Job_Logging]
+tags: [Android Open Source Project, Android]
 subtitle:
 visualworkflow: true
 ---

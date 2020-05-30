@@ -3,7 +3,7 @@ layout: post
 title: "Compile OpenBMC For Raspberry Pi"
 auther: Kevin Lee
 category: project1
-tags: [OpenBMC,Raspberry_Pi]
+tags: [OpenBMC,Raspberry-Pi]
 subtitle:
 visualworkflow: true
 ---

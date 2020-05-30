@@ -3,7 +3,7 @@ layout: post
 title: "Raspberry Pi zero Bring up OpenBMC"
 auther: Kevin Lee
 category: project1
-tags: [OpenBMC,Raspberry_Pi]
+tags: [OpenBMC,Raspberry-Pi]
 subtitle:
 visualworkflow: true
 ---

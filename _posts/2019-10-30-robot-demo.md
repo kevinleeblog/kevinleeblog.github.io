@@ -3,7 +3,7 @@ layout: post
 title: "3歲智商的掃地機器人"
 auther: Kevin Lee
 category: project1
-tags: [MCU_Design, Job_Logging]
+tags: [Firmware]
 subtitle:
 visualworkflow: true
 ---

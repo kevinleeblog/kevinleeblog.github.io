@@ -3,8 +3,8 @@ layout: post
 title: "Android把音量鍵換成Home key"
 auther: Kevin Lee
 category: project1
-tags: [Android_ROM_Design, Job_Logging]
-subtitle: 
+tags: [Android Open Source Project, MSM8953, Qualcomm]
+subtitle: Android 9
 visualworkflow: true
 ---
 

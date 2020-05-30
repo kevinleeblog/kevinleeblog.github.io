@@ -3,8 +3,8 @@ layout: post
 title: "Build Android 9 for Quectel SC600"
 auther: Kevin Lee
 category: project1
-tags: [Android_ROM_Design, Job_Logging]
-subtitle:
+tags: [ Android Open Source Project, MSM8953, Qualcomm]
+subtitle: 
 visualworkflow: true
 ---
 

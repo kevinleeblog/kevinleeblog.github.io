@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Add Ethernet UI for Android 9"
+title: "Add Ethernet UI In Setting "
 auther: Kevin Lee
 category: project1
-tags: [Android_ROM_Design,Job_Logging]
-subtitle: Android 9
+tags: [Android Open Source Project, Qualcomm, MSM8953]
+subtitle: MSM8953 on Android 9
 visualworkflow: true
 
 ---

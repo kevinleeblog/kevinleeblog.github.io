@@ -3,8 +3,8 @@ layout: post
 title: "Porting USB Over Serial to Android 7"
 auther: Kevin Lee
 category: project1
-tags: [Android_ROM_Design,Job_Logging]
-subtitle:
+tags: [Android Open Source Project, MSM8953, Qualcomm]
+subtitle: Android 7
 visualworkflow: true
 ---
 

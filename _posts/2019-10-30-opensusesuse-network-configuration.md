@@ -3,7 +3,7 @@ layout: post
 title: "OpenSUSE/SUSE Network Configuration"
 auther: Kevin Lee
 category: project1
-tags: [Linux, Job_Logging]
+tags: [Linux]
 subtitle:
 visualworkflow: true
 ---

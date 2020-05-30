@@ -3,7 +3,7 @@ layout: post
 title: "編譯Android User模式下安裝SerialPort App遇到的問題"
 auther: Kevin Lee
 category: project1
-tags: [Android_ROM_Design, Job_Logging]
+tags: [Android Open Source Project, Android]
 subtitle: "Using Google SerialPort App"
 visualworkflow: true
 ---

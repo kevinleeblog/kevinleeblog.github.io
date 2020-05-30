@@ -3,8 +3,8 @@ layout: post
 title: "adb設置DeviceOwner發生問題"
 auther: Kevin Lee
 category: project1
-tags: [Android_ROM_Design, Job_Logging]
-subtitle:
+tags: [Android Open Source Project]
+subtitle: Android 7.1.2
 visualworkflow: true
 ---
 

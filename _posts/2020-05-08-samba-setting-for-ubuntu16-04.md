@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Samba Setting for Ubuntu 16.04"
+title: "Samba Install"
 auther: Kevin Lee
 category: project1
-tags: [Ubuntu]
+tags: [Ubuntu, Samba]
 subtitle: Ubuntu 16.04
 visualworkflow: true
 ---

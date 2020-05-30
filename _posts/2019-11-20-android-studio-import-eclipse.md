@@ -3,7 +3,7 @@ layout: post
 title: "Android Studio匯入Eclipse ADT專案"
 auther: Kevin Lee
 category: project1
-tags: [Android, Job_Logging]
+tags: [Android]
 subtitle:
 visualworkflow: true
 ---
