@@ -19,6 +19,8 @@ visualworkflow: true
 *device/qcom/msm8953_64/init.target.rc*
 
 ```
+on boot
+
     write /sys/class/gpio/export 89
     write /sys/class/gpio/gpio89/direction out 
     write /sys/class/gpio/gpio89/value 1
@@ -30,6 +32,8 @@ visualworkflow: true
 
 *device/qcom/msm8953_64/init.target.rc*
 
+    on boot
+    
     write /sys/class/gpio/export 36
     write /sys/class/gpio/gpio36/direction in
     chown system system /sys/class/gpio/gpio36/value
