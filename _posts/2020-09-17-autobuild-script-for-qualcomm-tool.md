@@ -16,6 +16,13 @@ Aosp使用高通CPU都不免會需要了解使用Qfil燒錄、OTA燒錄以及adb
 
 直接po出完成品
 
+產生Qfil image需要使用到wine去執行windows應用程式
+
+```
+$ sudo apt update
+$ sudo apt install wine
+```
+
 *easybuild.sh*
 
 ```shell
@@ -210,6 +217,28 @@ else
     exit -1    
 fi
 
+```
+
+使用adb燒錄可使用下面的文件
+
+*flash_image.sh*
+
+```shell
+#!/bin/bash
+fastboot flash modem NON-HLOS.bin
+fastboot flash aboot emmc_appsboot.mbn
+fastboot flash boot boot.img
+fastboot flash system system.img
+fastboot flash mdtp mdtp.img
+fastboot flash cache cache.img
+fastboot flash userdata userdata.img
+fastboot flash persist persist.img
+fastboot flash recovery recovery.img
+fastboot flash dtbo dtbo.img
+fastboot flash vbmeta vbmeta.img
+fastboot flash vendor vendor.img
+fastboot flash splash splash.img
+fastboot reboot
 ```
 
 使用方式
