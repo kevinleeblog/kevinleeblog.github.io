@@ -40,7 +40,8 @@ export AR=$target_host-ar
 export AS=$target_host-clang
 export CC=${target_host}28-clang
 export CXX=${target_host}28-clang++
-export LD=$target_host-ld
+#export LD=${target_host-ld}
+export LD=${target_host}28-clang++
 export STRIP=$target_host-strip
 
 # Tell configure what flags Android requires.

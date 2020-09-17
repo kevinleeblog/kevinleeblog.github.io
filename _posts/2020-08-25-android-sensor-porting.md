@@ -2,7 +2,7 @@
 layout: post
 title: "Android dsps Sensor開發過程"
 auther: Kevin Lee
-category: project1w
+category: project1
 tags: [Android Open Source Project, MSM8953, Qualcomm]
 subtitle:
 visualworkflow: true
