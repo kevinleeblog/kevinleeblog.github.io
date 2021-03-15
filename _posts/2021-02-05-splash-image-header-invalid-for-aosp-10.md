@@ -45,3 +45,7 @@ $ vimdiff ReadData_eMMC_Lun0_0xb0000_Len22528_DT_05_02_2021_13_58_31.bin splash.
 發現燒進去的和取出來的內容是一模一樣!
 
 詢問代理商，給了我一包Qfil update包 
+使用這包Qfil包燒到機器內，有開機Logo了，所以這讓我意識到故事不單純
+比較代理商給的Splash.img發現格式竟然和Android 9所製作出來的不一樣，
+難怪無法在Android 10上正常顯示，使用Android 10 Codebase內的產生logo的工具
+產生一份新的splash.img才解決此問題
